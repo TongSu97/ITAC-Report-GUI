@@ -169,7 +169,7 @@ class Application(tk.Frame):
         Professors = ["Dr. Alparslan Oztekin", "Dr. Sudhakar Neti", "Dr. Ebru Demir"]
         self.Optioninfo14 = tk.OptionMenu(self.Labelframe1, self.PROF, *Professors)
 
-        Students= ["Tong Su", "Muhannad Altimemy", "Amin Balazadeh", "Gregory Scott", "Ben Ratner", "Bingxu Zhao", "Setayesh Javadirad", "Alex Rios"]
+        Students= ["Tong Su", "Amin Balazadeh Koucheh", "Gregory Scott", "Ben Ratner", "Bingxu Zhao", "Setayesh Javadirad", "Alex Rios"]
         self.Optioninfo15 = tk.OptionMenu(self.Labelframe1, self.LEAD, *Students)
 
         self.Optioninfo16 = tk.OptionMenu(self.Labelframe1, self.SAFE, *Students)
